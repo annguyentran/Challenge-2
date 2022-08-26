@@ -3,12 +3,14 @@
 
 }
 
+
+
 .item {
 width: 200px;
 justify-content: center;
 align-items: center;
-background-color: brown;
-color: white;
+color: darkblue;
+
 }
 .item:nth-of-type(1){
     font-size: xx-large;
@@ -73,15 +75,16 @@ color: white;
 .flex-container {
     display: flex;
     justify-content: space-around;
-    background-color: brown;
+    background-color: aqua;
 }
 
 #Welcome{
     text-align: center;
-    background-color: brown;
+    background-color:cadetblue;
     color: white;
     justify-content: center;
     font-size: xx-large;
+    padding: 2%;
 }
 
 #projects {
@@ -123,4 +126,10 @@ color: white;
 
 .contact-items:nth-of-type(3){ 
     margin: 20px;
+}
+
+#flex-container-about-me {
+display:table-column
+
+
 }
