@@ -91,15 +91,9 @@ color: darkblue;
     background-color: peachpuff;
     text-align: center;
     color: maroon;
-    height: 50px;
     font-size: xx-large;
 }
 
-.project-sites{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
 .contact{
     display: flex;
